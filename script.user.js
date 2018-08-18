@@ -36,11 +36,28 @@ body .h1, body .h2, body .h3, body .h4, body .ts-large-font, body h1, body h2, b
 	height: 2.2rem !important;
 	width: 2.2rem !important;
 }
+//tabs
 .ts-messages-header .ts-tab-bar-wrapper {
-	display: flex !important;
-	margin-top: 0 !important;
-	height: 2.9rem !important;
-	margin-bottom: 0.3rem !important;
+	margin-top: 1rem !important;
+	height: 3.4rem !important;
+}
+.btn {
+	display: inline-block;
+	margin-bottom: 0 !important;
+	font-weight: 400 !important;
+	text-align: center !important;
+	touch-action: manipulation !important;
+	cursor: pointer !important;
+	border: 1px solid transparent !important;
+	white-space: nowrap !important;
+    padding: 6px 3px !important;
+	font-size: 1.5rem !important;
+	line-height: 1.4286 !important;
+	border-radius: .3rem !important;
+	user-select: none !important;
+}
+.app-messages-header {
+	padding: 0 3.2rem .5rem !important;
 }
 
 
@@ -77,29 +94,6 @@ message-list.chat-style .self .media-left ~ .ts-message-thread-body {
 .ts-message-list-container .ts-message-list-item {
 	padding-left: 0.45rem !important;
 }
-//tabs
-.ts-messages-header .ts-tab-bar-wrapper {
-	display: flex !important;
-	margin-top: 1.1rem !important;
-	height: 2.9rem !important;
-	margin-bottom: 1.2rem !important;
-}
-.btn {
-	display: inline-block;
-	margin-bottom: 0 !important;
-	font-weight: 400 !important;
-	text-align: center !important;
-	touch-action: manipulation !important;
-	cursor: pointer !important;
-	border: 1px solid transparent !important;
-	white-space: nowrap !important;
-    padding: 6px 3px !important;
-	font-size: 1.5rem !important;
-	line-height: 1.4286 !important;
-	border-radius: .3rem !important;
-	user-select: none !important;
-}
-
 
 /* Github Enterprise Notification Cards */
 /* ====================================================== */
