@@ -2,7 +2,7 @@
 // @name         Microsoft Teams Compact
 // @namespace    MSTeamsCompact
 // @version      0.1
-// @updateURL    https://raw.githubusercontent.com/jmizell/MSTeamsCompact/master/script.js
+// @updateURL    https://raw.githubusercontent.com/jmizell/MSTeamsCompact/master/script.user.js
 // @description  Making Microsoft Teams UI just a little more compact
 // @author       mizellj@ottercove.net
 // @match        https://teams.microsoft.com/*
