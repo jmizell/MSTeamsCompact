@@ -23,16 +23,24 @@ body .h1,body .h2,body .h3,body .h4,body .ts-large-font,body h1,body h2,body h3,
 body .h5,body .h6,body h5,body h6{
     font-size:1rem !important;
 }
-
+body .h1, body .h2, body .h3, body .h4, body .ts-large-font, body h1, body h2, body h3, body h4 {
+	font-size: 1.5rem !important;
+}
 
 /*Team Title Bar */
 /* ====================================================== */
 .ts-title-bar .icons-patharrow {
-	margin: 0 0 -.2rem -.2rem;
+	margin: 0 0 -.2rem -.2rem !important;
 }
 .app-svg, .ts-svg {
-	height: 2.2rem;
-	width: 2.2rem;
+	height: 2.2rem !important;
+	width: 2.2rem !important;
+}
+.ts-messages-header .ts-tab-bar-wrapper {
+	display: flex !important;
+	margin-top: 0 !important;
+	height: 2.9rem !important;
+	margin-bottom: 0.3rem !important;
 }
 
 
@@ -67,29 +75,29 @@ message-list.chat-style .self .media-left ~ .ts-message-thread-body {
 	padding: .45rem .45rem .45rem 0 !important;
 }
 .ts-message-list-container .ts-message-list-item {
-	padding-left: 0.45rem;
+	padding-left: 0.45rem !important;
 }
 //tabs
 .ts-messages-header .ts-tab-bar-wrapper {
-	display: flex;
-	margin-top: 1.1rem;
-	height: 2.9rem;
-	margin-bottom: 1.2rem;
+	display: flex !important;
+	margin-top: 1.1rem !important;
+	height: 2.9rem !important;
+	margin-bottom: 1.2rem !important;
 }
 .btn {
 	display: inline-block;
-	margin-bottom: 0;
-	font-weight: 400;
-	text-align: center;
-	touch-action: manipulation;
-	cursor: pointer;
-	border: 1px solid transparent;
-	white-space: nowrap;
-	padding: 6px 12px;
+	margin-bottom: 0 !important;
+	font-weight: 400 !important;
+	text-align: center !important;
+	touch-action: manipulation !important;
+	cursor: pointer !important;
+	border: 1px solid transparent !important;
+	white-space: nowrap !important;
+    padding: 6px 3px !important;
 	font-size: 1.5rem !important;
-	line-height: 1.4286;
-	border-radius: .3rem;
-	user-select: none;
+	line-height: 1.4286 !important;
+	border-radius: .3rem !important;
+	user-select: none !important;
 }
 
 
@@ -102,7 +110,7 @@ message-list.chat-style .self .media-left ~ .ts-message-thread-body {
 	margin: 0 !important;
 }
 .ts-o365-connector-card-section .o365-card-activity-container {
-	display: flex;
+	display: flex !important;
 	overflow: hidden;
 	margin: 0 !important;
 }
