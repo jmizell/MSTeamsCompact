@@ -96,56 +96,56 @@ message-list.chat-style .self .media-left ~ .ts-message-thread-body {
 /* Github Enterprise Notification Cards */
 /* ====================================================== */
 .ts-o365-connector-card .o365-card-title {
-	font-weight: normal;
-	font-size: 1.4rem;
-	line-height: 1.1;
-	margin: 0;
+	font-weight: normal !important;
+	font-size: 1.4rem !important;
+	line-height: 1.1 !important;
+	margin: 0 !important;
 }
 .ts-o365-connector-card-section .o365-card-activity-container {
 	display: flex;
 	overflow: hidden;
-	margin: 0;
+	margin: 0 !important;
 }
 .ts-o365-connector-card-section .card-facts {
-	margin: 0;
+	margin: 0 !important;
 }
 .ts-o365-connector-card-section .card-facts .card-fact-key {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	font-size: 1.2rem;
-	line-height: 1;
-	font-weight: 600;
-	padding: 2px;
-	max-width: 100%;
-	vertical-align: top;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap !important;
+	font-size: 1.2rem !important;
+	line-height: 1 !important;
+	font-weight: 600 !important;
+	padding: 2px !important;
+	max-width: 100% !important;
+	vertical-align: top !important;
 }
 .ts-o365-connector-card-section .card-facts .card-fact-value {
-	font-size: 1.2rem;
-	line-height: 1;
-	padding: 0;
-	max-width: 100%;
-	word-break: break-all;
+	font-size: 1.2rem !important;
+	line-height: 1 !important;
+	padding: 0 !important;
+	max-width: 100% !important;
+	word-break: break-all !important;
 }
 .ts-o365-connector-card * + .card-actions-container .card-action, .ts-o365-connector-card * + o365-action-pane > .card-actions-container .card-action {
-	overflow: visible;
-	text-overflow: clip;
-	white-space: normal;
-	height: auto;
-    max-width: none;
-    min-width: none;
-    font-size: 1.3rem;
-	padding: 0.2rem;
-	width: auto;
-	margin: .4rem;
+	overflow: visible !important;
+	text-overflow: clip !important;
+	white-space: normal !important;
+	height: auto !important;
+    max-width: none !important;
+    min-width: none !important;
+    font-size: 1.3rem !important;
+	padding: 0.2rem !important;
+	width: auto !important;
+	margin: .4rem !important;
 }
 .ts-o365-connector-card-section .o365-card-activity-container .card-image-error.avatar {
-	width: 4rem;
-	height: 4rem;
+	width: 4rem !important;
+	height: 4rem !important;
 }
 .ts-o365-connector-card-section .o365-card-activity-title {
-	font-size: 1.3rem;
-	line-height: 1.1;
-	font-weight: 600;
+	font-size: 1.3rem !important;
+	line-height: 1.1 !important;
+	font-weight: 600 !important;
 }
 ` );
